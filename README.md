@@ -20,6 +20,9 @@ browser once connected. For the assignment, it supports the following features:
 If the user enters "pong" as the command to the server, webserv.c sets up a serial connection to
 the Arduino Uno. At this point, the players can use the arrow keys to control the game.
 
+To enter commands, compile and run the server on the terminal using the port number as the first
+(and only) argument. Then connect to http://localhost:PORTNUMBER on a web browser, and add the
+command after the port number.
 
 HARDWARE:
 
